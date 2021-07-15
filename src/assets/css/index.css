@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav{
+  display:flex;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.nav .navItem {
+  width: 88px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 14px;
+}
+.nav .active{
+    font-weight: 900;
+}
+ .bar{
+  position: absolute;
+  width: 44px;
+  height: 5px;
+  bottom: 0px;
+  background-color:orangered;
+  transition: .8s ease;
+}
